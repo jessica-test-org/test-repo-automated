@@ -1,0 +1,37 @@
+/*
+BEM
+block — block
+__elem — element
+--mod — modifier
+--mod_val — modifier value
+*/
+
+// General
+@import "normalize";
+
+// Console blocks
+@import "console-blocks/console";
+@import "console-blocks/entry-container";
+@import "console-blocks/item";
+@import "console-blocks/info";
+@import "console-blocks/head";
+@import "console-blocks/key";
+@import "console-blocks/map-pair";
+@import "console-blocks/hidden";
+@import "console-blocks/c-string";
+@import "console-blocks/c-number";
+@import "console-blocks/c-regexp";
+@import "console-blocks/c-boolean";
+@import "console-blocks/c-null";
+@import "console-blocks/c-symbol";
+@import "console-blocks/c-undefined";
+@import "console-blocks/length";
+@import "console-blocks/pointer";
+@import "console-blocks/italic";
+@import "console-blocks/grey";
+@import "console-blocks/error";
+@import "console-blocks/nowrap";
+
+// Prompt blocks
+@import "prompt-blocks/prompt";
+@import "prompt-blocks/send-icon";
