@@ -1,9 +1,5 @@
-node_modules
-*.log
-*.log.*
-tests/coverage
-tests/report-lcovonly.txt
 build/
-.idea
+node_modules/
+*.log
 .DS_Store
-out
+.vscode
